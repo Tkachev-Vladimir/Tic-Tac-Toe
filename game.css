@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+.win {
+    font-size: 80px;
+    margin: 40px;
+}
+.new_game {
+   font-size: 55px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: white;
+    background: darkkhaki;
+    font-family: Arial;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.wrapper_game {
+     width: 1000px;
+    height: 1000px;
+background-color: white;
+outline: 2px solid black;
+display: flex;
+flex-wrap: wrap;
+}
+.item {
+    width: 333.3px;
+    height: 333.3px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 100px;
+}
+.circle {
+    width: 100%;
+    height: 100%;
+}
+.first {
+    width: 100%;
+    height: 100%;
+}
+.second {
+    width: 100%;
+    height: 100%;
+}
+.line{
+    width: 100%;
+    height: 100%;
+}
+.active {
+    opacity: 1;
+}
+.cross {
+    background-color: navy;
+}
+.zero {
+    background-color: red;
+}
+.game_cross {
+    width: 100%;
+    height: 100%;
+}
+.game_zero{
+    width: 100%;
+    height: 100%;
+}
