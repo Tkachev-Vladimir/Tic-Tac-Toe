@@ -87,7 +87,7 @@ for(let i = 0; i < winArr.length; i++){
 }
 }
 function newGame(){
-    result.innerHTML = '';
+    result.innerHTML = 'Результат:';
     isMove = false;
     count= 0;
     for(let el of items){
